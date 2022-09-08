@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+figure{
+    display: block;
+}
+
+img{
+    border-radius: 50%;
+    width: 2rem;
+}
+
+.articles{
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+}
+
+.importat-dates{
+    display: flex;
+    flex-direction: column;
+}

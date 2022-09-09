@@ -1,0 +1,17 @@
+.sectionBirthday{
+    width: 140%;
+    background-color: white;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 1.5rem;
+    box-shadow: 1rem 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+}
+
+h2{
+    font-weight: 300;
+    text-transform: capitalize;
+}

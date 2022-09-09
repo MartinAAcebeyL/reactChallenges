@@ -10,7 +10,7 @@ class ArticleBirthay extends React.Component{
                 </figure>
                 <div className="importat-dates">
                     <h4>{this.props.name}</h4>                
-                    <p>{this.props.years}</p>
+                    <p>{this.props.years} years</p>
                 </div>
             </article>
         );

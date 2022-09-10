@@ -15,17 +15,22 @@ class SectionBirthday extends React.Component{
 
     chanceArticlesVisibility() {
         this.setState({
-            visibility:!this.visibility
+            visibility:!this.state.visibility
         });
     }
 
 
     render(){
+        
+        const buttonContent = <BotonBirthay onclick={this.chanceArticlesVisibility} content="Update birtday" />;
+        const justButton = <BotonBirthay onclick={this.chanceArticlesVisibility} />; 
+
         return(
             <section className="sectionBirthday">
-                <h2>{this.props.title}</h2>
-                {this.state.visibility ? this.props.childrens: <p>you dont have birthdays</p>}
-                <BotonBirthay />
+                
+                {this.state.visibility ? <h2>{this.props.title}</h2> : <h2>0 birthdays today</h2>}
+                {this.state.visibility ? this.props.childrens: ''}
+                {this.state.visibility? justButton: buttonContent}                
             </section>
         );
     }

@@ -41,7 +41,6 @@ function App() {
   const articles_array = [a, b, c, d, e];
 
   return (
-    
       <SectionBirthday title={ articles_array.length + " birthdays today"} childrens={articles_array}/>
   );
 }

@@ -6,4 +6,9 @@ button{
     border: none;
     color: white;
     border-radius: 0.5rem;
+
+}
+
+button:hover{
+    cursor: grab;
 }

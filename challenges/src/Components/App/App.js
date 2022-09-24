@@ -10,11 +10,13 @@ import './App.css'
 function App() {
   return (
     <BrowserRouter>
-      <Nav/> 
+      <Nav />
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/reto1" element={<Reto1/>} />
-        <Route path="/reto2" element={<p>Hola desde reto 2</p>} />
+        <Route path="/" element={<Nav />}/>
+          <Route index element={<Home/>} />
+          <Route path="/reto1" element={<Reto1/>} />
+          <Route path="/reto2" element={<p>Hola desde reto 2</p>} />
+        
       </Routes>
     </BrowserRouter>
   );

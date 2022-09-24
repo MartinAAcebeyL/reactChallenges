@@ -15,8 +15,8 @@ img{
 }
 
 .articles{
-    width: 100%;
-    height: 50px;
+    /* width: 100vw; */
+    height: 70px;
     padding: 0.5rem;
     display: flex;
     align-items: center;

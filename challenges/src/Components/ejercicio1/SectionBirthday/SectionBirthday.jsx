@@ -27,7 +27,6 @@ class SectionBirthday extends React.Component{
 
         return(
             <section className="sectionBirthday">
-                
                 {this.state.visibility ? <h2>{this.props.title}</h2> : <h2>0 birthdays today</h2>}
                 {this.state.visibility ? this.props.childrens: ''}
                 {this.state.visibility? justButton: buttonContent}                

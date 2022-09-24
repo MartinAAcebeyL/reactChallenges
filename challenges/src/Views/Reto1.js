@@ -1,6 +1,6 @@
 import React from 'react';
 import ArticleBirthay from '../Components/ejercicio1/ArticleBirthay/ArticleBirthay.jsx'
-import SectionBirthday from '../Components/ejercicio1/ArticleBirthay/ArticleBirthay.jsx'
+import SectionBirthday from '../Components/ejercicio1/SectionBirthday/SectionBirthday.jsx';
 
 import './Reto1.css'
 
@@ -44,12 +44,9 @@ function Reto1() {
     const articles_array = [a, b, c, d, e];
 
     return (
-        // <>
-        //     {<SectionBirthday title={ articles_array.length + " birthdays today"} childrens={articles_array}/> }
-
-        // </>
-      <p>Hola desed Reto1</p>
-
+      <div className='app'>
+        <SectionBirthday title={articles_array.length + " birthdays today"} childrens={articles_array} />
+      </div>
     );
 }
 export default Reto1;
